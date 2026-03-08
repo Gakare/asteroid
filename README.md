@@ -1,5 +1,12 @@
-requirements:
+# requirements:
 * Python=3+
 * Pygame=2.6.1
 
-To run, activate venv, then type `python main.py`
+## Setup:
+python -m venv venv
+pip install -r requirements.txt
+
+## Run:
+`. venv/bin/activate`
+`python main.py`
+
